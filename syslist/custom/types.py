@@ -2,6 +2,7 @@
 # desc:类型判断
 # auth:Carol Luo
 # date:2021/2/24 23:14
+
 #整数
 def is_int(v: any):
     return isinstance(v, int)
@@ -36,8 +37,7 @@ def is_map(v: any):
 
 #符串
 def is_string(v: any):
-    return isinstance(v, str)
-
+    return isinstance(v, str) 
 
 
 
